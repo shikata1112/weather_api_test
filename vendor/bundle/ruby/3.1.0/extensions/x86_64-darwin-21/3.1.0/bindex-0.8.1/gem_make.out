@@ -1,0 +1,15 @@
+current directory: /Users/shu/Desktop/rails-projects/weather_api_test/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/shu/.rbenv/versions/3.1.0/bin/ruby -I /Users/shu/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20220125-1592-ivq205.rb extconf.rb
+creating Makefile
+
+current directory: /Users/shu/Desktop/rails-projects/weather_api_test/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/shu/Desktop/rails-projects/weather_api_test/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/shu/Desktop/rails-projects/weather_api_test/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20220125-1592-c9e5qr/skiptrace/internal
