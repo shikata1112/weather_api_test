@@ -87,7 +87,7 @@ GEM
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
-    i18n (1.8.11)
+    i18n (1.9.0)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
@@ -110,7 +110,7 @@ GEM
     nokogiri (1.13.1-x86_64-darwin)
       racc (~> 1.4)
     public_suffix (4.0.6)
-    puma (5.5.2)
+    puma (5.6.1)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
@@ -224,6 +224,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   sqlite3 (~> 1.4)
+  thor
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)

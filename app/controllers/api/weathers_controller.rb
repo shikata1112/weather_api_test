@@ -4,7 +4,7 @@ class Api::WeathersController < ApplicationController
     weather_response_json = JSON.parse(weather_response.body)
     weekly_weather_area = weather_response_json[1]['timeSeries'][0]['areas'].first # area: ['東京', '伊豆諸島北部'...]
     weekly_weather_area.delete('reliabilities')
-    weekly_weather_area
+    render json: weekly_weather_area
   end
 
   private
